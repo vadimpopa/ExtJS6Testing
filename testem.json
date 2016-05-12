@@ -1,0 +1,5 @@
+{
+  "framework": "custom",
+  "test_page": "unit-tests/spec-runner.html",
+  "launch_in_dev": ["Chrome"]
+}

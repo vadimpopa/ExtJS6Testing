@@ -1,0 +1,5 @@
+.sencha
+build
+bootstrap.*
+ext
+unit-tests/node_modules

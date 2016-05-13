@@ -2,4 +2,4 @@
 build
 bootstrap.*
 ext
-unit-tests/node_modules
+tests/node_modules

@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tui": "./node_modules/.bin/phantomjs ui-tests/*.spec.js",
+    "tunit": "./node_modules/.bin/testem"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "casperjs": "^1.1.1",
     "jasmine": "^2.4.1",
+    "phantomjs": "^2.1.7",
     "testem": "^1.7.0"
   }
 }

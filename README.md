@@ -24,38 +24,7 @@ npm install
 
 In order to start the http server and access the web site type in : sencha app watch in the ExtJS6Testing folder
 
-Supported components and methods.
-
-var eTT = new MochaExtJs();
-
-eTT() -->--->|------->--->|- button ---> (|- '%title%'     )----.
-        |    |       |    |- window       |- '%fieldLabel%'     |
-        |    |- no --'    |- numberfield  |- '%reference%'      |
-        |    |            |- textfield    |- '%boxLabel%'       |
-        |    |            |- checkbox     |- '%xtype%'          |
-        |    |            |- combobox     `- '%text%'           |
-        |    |            |- radio                              |
-        |    |            |- grid        .----------------------x----------------------.
-        |    |            `- tab         |                                             |
-        |    |                           |-->|- click -------> (...) ------------------v
-        |    |                           |   |- isEnabled                              |
-        |    |- waitLoadMask() ------.   |   |- isDisabled                             |
-        |    |                       |   |   |- isHidden                               |
-        |    `- waitText('%text%')---v   |   |- isVisible                              |
-        |                            |   |   |- select                                 |
-        |                            |   |   |- checkRowsCount                         |
-        |                            |   |   |- edit                                   |
-        |                            |   |   `- fill                                   |
-        |                            |   |                                             |
-        |                            |   `--> cellEditor() --->|- select ---> (...) ---v
-        |                            |                         |- click                |
-        |                            |                         `- fill                 |
-        |                            |                                                 |
-        x----------------------------<-------------------------------------------------'
-        |
-        |
-        `--> done.
-        
+Examples: https://github.com/antonfisher/node-mocha-extjs
         
 
 

@@ -1,30 +1,43 @@
 # ExtJS6Testing
 
-ExtJS6 testing: unit tests
+### ExtJS6 testing: ui tests
 
-Step 1. Clone the repository to you local machine.
+##### Clone the repository to you local machine.
 
+```sh
 git clone https://github.com/vadimpopa/ExtJS6Testing.git
+```
 
-Step 2. Download & Install Sencha cmd
+##### Download & Install Sencha cmd
 
+```sh
 https://www.sencha.com/products/extjs/cmd-download/
+```
 
-Step 3. Go to ExtJS6Testing folder & upgrade sencha app
+##### Go to ExtJS6Testing folder & upgrade sencha app
 
+```sh
 sencha app upgrade -ext
+```
 
-Step 4. Build sencha dev app
+##### Build sencha dev app
 
+```sh
 sencha app build development
+```
 
-Step 5. Go to tests/ folder and install dependencies
+##### Go to tests/ folder and install dependencies
 
+```sh
 npm install
+```
 
-In order to start the http server and access the web site type in : sencha app watch in the ExtJS6Testing folder
+##### In order to start the http server and access the web site type in : 
 
-Examples: https://github.com/antonfisher/node-mocha-extjs
-        
+```sh
+sencha app watch
+```
 
+###### Examples:
 
+* https://github.com/antonfisher/node-mocha-extjs

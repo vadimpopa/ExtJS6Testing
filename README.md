@@ -2,6 +2,60 @@
 
 ExtJS6 testing: unit tests
 
+Step 1. Clone the repository to you local machine.
 
-To run the unit tests go to unit-tests and run npm install.
-Then in root app run: node unit-tests/node_modules/testem/testem.js
+git clone https://github.com/vadimpopa/ExtJS6Testing.git
+
+Step 2. Download & Install Sencha cmd
+
+https://www.sencha.com/products/extjs/cmd-download/
+
+Step 3. Go to ExtJS6Testing folder & upgrade sencha app
+
+sencha app upgrade -ext
+
+Step 4. Build sencha dev app
+
+sencha app build development
+
+Step 5. Go to tests/ folder and install dependencies
+
+npm install
+
+In order to start the http server and access the web site type in : sencha app watch in the ExtJS6Testing folder
+
+Supported components and methods.
+
+var eTT = new MochaExtJs();
+
+eTT() -->--->|------->--->|- button ---> (|- '%title%'     )----.
+        |    |       |    |- window       |- '%fieldLabel%'     |
+        |    |- no --'    |- numberfield  |- '%reference%'      |
+        |    |            |- textfield    |- '%boxLabel%'       |
+        |    |            |- checkbox     |- '%xtype%'          |
+        |    |            |- combobox     `- '%text%'           |
+        |    |            |- radio                              |
+        |    |            |- grid        .----------------------x----------------------.
+        |    |            `- tab         |                                             |
+        |    |                           |-->|- click -------> (...) ------------------v
+        |    |                           |   |- isEnabled                              |
+        |    |- waitLoadMask() ------.   |   |- isDisabled                             |
+        |    |                       |   |   |- isHidden                               |
+        |    `- waitText('%text%')---v   |   |- isVisible                              |
+        |                            |   |   |- select                                 |
+        |                            |   |   |- checkRowsCount                         |
+        |                            |   |   |- edit                                   |
+        |                            |   |   `- fill                                   |
+        |                            |   |                                             |
+        |                            |   `--> cellEditor() --->|- select ---> (...) ---v
+        |                            |                         |- click                |
+        |                            |                         `- fill                 |
+        |                            |                                                 |
+        x----------------------------<-------------------------------------------------'
+        |
+        |
+        `--> done.
+        
+        
+
+

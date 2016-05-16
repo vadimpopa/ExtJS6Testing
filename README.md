@@ -2,7 +2,7 @@
 
 ### UI tests
 
-##### Clone the repository to you local machine.
+##### Clone the repository to your local machine.
 
 ```sh
 git clone https://github.com/vadimpopa/ExtJS6Testing.git

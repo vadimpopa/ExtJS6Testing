@@ -12,6 +12,7 @@
   "devDependencies": {
     "casperjs": "^1.1.1",
     "jasmine": "^2.4.1",
+    "mocha-extjs": "^0.1.62",
     "phantomjs": "^2.1.7",
     "testem": "^1.7.0"
   }

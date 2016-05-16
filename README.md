@@ -1,6 +1,6 @@
 # ExtJS6Testing
 
-### ExtJS6 testing: ui tests
+### UI tests
 
 ##### Clone the repository to you local machine.
 
